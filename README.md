@@ -1,4 +1,4 @@
-For this lab, I will be creating an Active Directory on my Proxmox-based homelab 
+For this lab, I will be creating an Active Directory on my Proxmox-based homelab (Includes Windows Server 2022 Installation, Static IP, DNS, and DHCP)  
 
 <h2> Firstly, we'll need to install a version of Winodows server in order to act as the Domain Controller for our Active Directory </h2>
 click here for that small project
@@ -46,7 +46,7 @@ It'd be bad if the domain controller's IP changed every once a while, the user's
   
   <img width="806" height="383" alt="image" src="https://github.com/user-attachments/assets/0d8fab6d-fa5b-4040-9aa8-55760045296f" />
 
-  <h2> Making a static IP for the domain controller (Actually this time) </h2>
+  <h2> Making a static IP for the domain controller (Actually this time) + getting started on DNS </h2>
 
   -First, we'll head into Network Connections, properties, find network protocol v4, then configurations
 
@@ -59,6 +59,8 @@ It'd be bad if the domain controller's IP changed every once a while, the user's
   -We'll make the static IP 192.168.1 for privacy, and .10 for the domain controller. .1 will be reserved for the default gateway to reserve for the router. Subnet mask will be 255.255.255.0, and the dns will refer to Google by using 8.8.8.8, with 8.8.4.4 as a backup also for Google
 
   <img width="348" height="391" alt="image" src="https://github.com/user-attachments/assets/18b5af6e-4f69-4d31-b15b-20033af2ac12" />
+
+  
 
   
 
