@@ -39,6 +39,7 @@ It'd be bad if the domain controller's IP changed every once a while, the user's
   -We'll click update drivers, then browse our computer for drivers. We'll find the NetKVM in the virtIO CD drive, and go to the 2k22 folder
   
   <img width="590" height="387" alt="image" src="https://github.com/user-attachments/assets/b4c9602b-f39f-4e02-a102-9503e6207239" />
+  
   <img width="246" height="177" alt="image" src="https://github.com/user-attachments/assets/76a645fc-8c4b-4a6f-8042-7e2d61266daa" />
   
   -Now, we have internet
